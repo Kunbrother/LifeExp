@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <p>Welcome to <%= title %></p>
+    <p><a href="/login">登录</a><a href="/register">注册</a></p>
+    <form method="post" onsubmit="return true">
+        <fieldset>
+            <div class="input">
+                <input type="text" id="username" name="username" placeholder="请输入用户名" required />
+            </div>
+            <div class="input">
+                <input type="password" id="password" name="password" placeholder="请输入密码" required />
+            </div>
+
+            <div class="input">
+                <input type="password" id="password2" name="password2" placeholder="请再次输入密码" required />
+            </div>
+
+            <div class="button">
+                <button type="submit" id="registerButtion">注册</button>
+            </div>
+
+        </fieldset>
+    </form>
+  </body>
+</html>

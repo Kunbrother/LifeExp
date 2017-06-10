@@ -5,4 +5,30 @@ body {
 
 a {
   color: #00B7FF;
+  margin-left: 20px;
+  text-decoration: none;
 }
+a:hover{
+  text-decoration: underline;
+}
+
+.input{
+  height: 60px;
+  width:360px;
+  background-color: #DEDEDE;
+  text-align: center;
+  line-height: 60px;
+}
+input{
+  width: 280px;
+  height: 40px;
+  line-height: 40px;
+  font-size: large;
+}
+
+button{
+  height: 40px;
+  line-height: 40px;
+  font-size: large;
+}
+

@@ -7,6 +7,13 @@
   <body>
     <h1><%= title %></h1>
     <p>Welcome to <%= title %></p>
+    <%
+        if (err!=""){
+           %>
+           <p class="error"><%= err%></p>
+           <%
+        }
+    %>
     <p><a href="/login">登录</a><a href="/register">注册</a></p>
     <form method="post" onsubmit="return true">
         <fieldset>
